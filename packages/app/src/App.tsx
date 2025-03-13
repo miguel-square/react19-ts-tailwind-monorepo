@@ -1,7 +1,6 @@
-import React from 'react';
 import { Button } from '@my-project/ui-lib';
 
-const App: React.FC = () => {
+const App = () => {
     return (
         <div className="flex min-h-screen flex-col items-center justify-center p-24">
             <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm">
@@ -14,13 +13,9 @@ const App: React.FC = () => {
                     <p className="mb-4">
                         This project is set up with pnpm workspaces and rsbuild.
                     </p>
-
-                    <div className="flex flex-col sm:flex-row gap-4 mt-6">
-                        <Button variant="default">Default Button</Button>
-                        <Button variant="destructive">Destructive Button</Button>
-                        <Button variant="outline">Outline Button</Button>
-                        <Button variant="secondary">Secondary Button</Button>
-                    </div>
+                </div>
+                <div className="">
+                    <Button />
                 </div>
             </div>
         </div>

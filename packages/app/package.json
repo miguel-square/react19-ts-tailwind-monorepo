@@ -8,7 +8,7 @@
     "preview": "rsbuild preview"
   },
   "dependencies": {
-    "@my-project/ui-lib": "workspace:^1.0.0",
+    "@my-project/ui-lib": "workspace:*",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },

@@ -84,18 +84,6 @@ To add a new component to the UI library:
 3. Rebuild the UI library with `pnpm --filter @my-project/ui-lib build`
 4. Import it in your app: `import { MyComponent } from '@my-project/ui-lib'`
 
-## TypeScript Configuration
-
-The project uses a TypeScript configuration that includes:
-
-- Path aliases for easy imports
-- Strict type checking
-- JSX support for React
-
-## Tailwind CSS
-
-Tailwind CSS is configured for both the UI library and the app. The app's Tailwind configuration extends the UI library's theme to ensure consistency.
-
 ## Workspace Commands
 
 - `pnpm dev` - Start the app development server
