@@ -1,0 +1,26 @@
+{
+  "name": "@my-project/app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "rsbuild dev",
+    "build": "rsbuild build",
+    "preview": "rsbuild preview"
+  },
+  "dependencies": {
+    "@my-project/ui-lib": "workspace:^1.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@rsbuild/core": "^0.4.12",
+    "@rsbuild/plugin-react": "^0.4.12",
+    "@tailwindcss/postcss": "^4.0.14",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^4.0.14",
+    "typescript": "^5.3.3"
+  }
+}

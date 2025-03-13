@@ -1,0 +1,20 @@
+{
+  "name": "react-19-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "pnpm --filter @my-project/app dev",
+    "build": "pnpm --filter @my-project/app build",
+    "build:ui": "pnpm --filter @my-project/ui-lib build",
+    "build:all": "pnpm -r build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  },  
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.6.3"
+}
